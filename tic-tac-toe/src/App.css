@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 5px;
+}
+
+.box {
+  border-radius: 5px;
+  border: thin solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+
+.box:hover {
+  background-color: lightslategray;
+}
+
+.reset {
+  padding: 10px 30px;
+}
