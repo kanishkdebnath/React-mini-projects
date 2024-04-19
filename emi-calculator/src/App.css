@@ -1,0 +1,70 @@
+.app {
+  padding: 40px;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.calculator {
+  border: thin solid grey;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+  gap: 20px;
+}
+
+.form {
+  padding: 20px;
+}
+
+.sliderInput {
+  padding: 20px 0;
+}
+
+.lableData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data {
+  text-align: center;
+  font-weight: 700;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  min-width: 30%;
+}
+
+.slider {
+  margin: 20px 0;
+  width: 100%; 
+}
+
+.result {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0; 
+}
+
+.graph {
+  width: 40%;
+  padding: 20px;
+}
