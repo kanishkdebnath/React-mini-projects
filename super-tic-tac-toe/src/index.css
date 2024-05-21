@@ -1,0 +1,8 @@
+:root {
+  font-family: sans-serif;
+  background-color: rgb(18, 41, 77);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

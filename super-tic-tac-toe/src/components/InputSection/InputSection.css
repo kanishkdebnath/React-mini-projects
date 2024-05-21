@@ -1,0 +1,85 @@
+.input-section {
+  display: flex;
+  gap: 20px;
+}
+
+.input-name-block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.name-input {
+  all: unset;
+  background-color: aliceblue;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button-common {
+  all: unset;
+  padding: 20px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button-common:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+.button-common:disabled {
+  filter: opacity(0.5);
+  cursor: not-allowed;
+}
+
+
+.submit-name {
+  background-color: rgb(243, 193, 56);
+  padding: 20px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.player-name-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-name {
+  padding: 20px;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.undo-name {
+  background-color: rgb(241, 158, 80);
+}
+
+.play-now {
+  padding: 20px 40px;
+  font-size: 36px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  background-color: rgb(5, 82, 5);
+  color: white;
+  cursor: pointer;
+}

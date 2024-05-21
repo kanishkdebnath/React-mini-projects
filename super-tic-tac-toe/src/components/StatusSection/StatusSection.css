@@ -1,0 +1,17 @@
+.status-section-block {
+  background-color: rgb(240, 194, 69);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.player-board {
+  display: flex;
+  gap: 10px;
+}
